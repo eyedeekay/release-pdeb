@@ -31,7 +31,7 @@ for debian in $DEBIANS; do
 done
 
 setup(){
-	sudo install -m755 ./release.sh /usr/local/bin/release-pdeb
+	sudo install -m755 ./release-pdeb /usr/local/bin/release-pdeb
 }
 
 upload(){
